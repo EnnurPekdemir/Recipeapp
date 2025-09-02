@@ -1,0 +1,18 @@
+### SIGNUP (Kayıt)
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+
+{
+  "username": "ennur",
+  "email": "ennur@example.com",
+  "password": "123456"
+}
+
+### LOGIN (Giriş)
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "email": "ennur@example.com",
+  "password": "123456"
+}
